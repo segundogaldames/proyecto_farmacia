@@ -35,6 +35,7 @@ public class Farmacia
         
             System.out.println("Ingrese una opción: ");
             opcion = sc.nextInt();
+            sc.nextLine();
 
             switch(opcion){
                 case 1:
